@@ -1,0 +1,19 @@
+# Xcode
+DerivedData/
+xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+*.moved-aside
+
+# SwiftPM
+.build/
+.swiftpm/
+
+# Build output of Scripts/build-with-command-line-tools.sh is written to ~/Library/Caches
+# (never inside this folder, which is cloud-synced).
+
+# macOS
+.DS_Store
+
+# Packaged disk image (Scripts/make-dmg.sh); publish it as a release asset instead of committing it
+dist/
